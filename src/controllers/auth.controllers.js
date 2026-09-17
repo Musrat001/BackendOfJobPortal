@@ -49,6 +49,8 @@ const userLogin = async (req, res) => {
         })
     }
 
+    // This function is not in use more.....😊😎
+
     // const accessToken = jwt.sign(
     //     {
     //         user: user
@@ -59,7 +61,7 @@ const userLogin = async (req, res) => {
     //         expiresIn: 300
     //     }
     // );
-    console.log(user);
+    // console.log(user);
 
 
     const accessToken = await generateAccessToken(user._id);
