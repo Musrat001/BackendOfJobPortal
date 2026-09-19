@@ -13,7 +13,8 @@ app.use(express.json())
 
 // app.use(multer());
 app.use(cors({
-    origin: "https://frontend-of-job-portal.vercel.app/",
+    // fontend deployed base url
+    origin: "https://frontend-of-job-portal.vercel.app",
     credentials: true
 }
 ));
